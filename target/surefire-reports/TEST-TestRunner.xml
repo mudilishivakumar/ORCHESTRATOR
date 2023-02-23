@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestRunner" time="32.441" tests="9" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/gaian/Downloads/selenium-cucumber-page-object-example-master/target/test-classes:/home/gaian/Downloads/selenium-cucumber-page-object-example-master/target/classes:/home/gaian/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/home/gaian/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/home/gaian/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar:/home/gaian/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar:/home/gaian/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/home/gaian/.m2/repository/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.jar:/home/gaian/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/home/gaian/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/gaian/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/gaian/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/gaian/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/gaian/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/gaian/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/gaian/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/gaian/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/gaian/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/gaian/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/gaian/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/gaian/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/gaian/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/gaian/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/gaian/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/gaian/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/gaian/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/gaian/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/gaian/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/gaian/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/gaian/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/gaian/.m2/repository/io/github/bonigarcia/webdrivermanager/5.3.2/webdrivermanager-5.3.2.jar:/home/gaian/.m2/repository/org/slf4j/slf4j-api/2.0.6/slf4j-api-2.0.6.jar:/home/gaian/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/home/gaian/.m2/repository/com/github/docker-java/docker-java/3.2.14/docker-java-3.2.14.jar:/home/gaian/.m2/repository/com/github/docker-java/docker-java-core/3.2.14/docker-java-core-3.2.14.jar:/home/gaian/.m2/repository/com/github/docker-java/docker-java-api/3.2.14/docker-java-api-3.2.14.jar:/home/gaian/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/home/gaian/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/home/gaian/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/home/gaian/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/home/gaian/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/home/gaian/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/home/gaian/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/home/gaian/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/home/gaian/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.14/docker-java-transport-httpclient5-3.2.14.jar:/home/gaian/.m2/repository/com/github/docker-java/docker-java-transport/3.2.14/docker-java-transport-3.2.14.jar:/home/gaian/.m2/repository/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar:/home/gaian/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/home/gaian/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/gaian/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/home/gaian/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/home/gaian/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/home/gaian/.m2/repository/com/vimalselvam/cucumber-extentsreport/3.0.2/cucumber-extentsreport-3.0.2.jar:/home/gaian/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar:/home/gaian/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/home/gaian/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/home/gaian/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/home/gaian/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/home/gaian/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/home/gaian/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/home/gaian/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/gaian/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/home/gaian/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/home/gaian/.m2/repository/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar:"/>
+    <property name="java.vm.vendor" value="Private Build"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Linux"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
+    <property name="sun.java.command" value="/home/gaian/Downloads/selenium-cucumber-page-object-example-master/target/surefire/surefirebooter-20230223184130897_3.jar /home/gaian/Downloads/selenium-cucumber-page-object-example-master/target/surefire 2023-02-23T18-41-30_432-jvmRun1 surefire-20230223184130897_1tmp surefire_0-20230223184130897_2tmp"/>
+    <property name="surefire.test.class.path" value="/home/gaian/Downloads/selenium-cucumber-page-object-example-master/target/test-classes:/home/gaian/Downloads/selenium-cucumber-page-object-example-master/target/classes:/home/gaian/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/home/gaian/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/home/gaian/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar:/home/gaian/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar:/home/gaian/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/home/gaian/.m2/repository/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.jar:/home/gaian/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/home/gaian/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/gaian/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/gaian/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/gaian/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/gaian/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/gaian/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/gaian/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/gaian/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/gaian/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/gaian/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/gaian/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/gaian/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/gaian/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/gaian/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/gaian/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/gaian/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/gaian/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/gaian/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/gaian/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/gaian/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/gaian/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/gaian/.m2/repository/io/github/bonigarcia/webdrivermanager/5.3.2/webdrivermanager-5.3.2.jar:/home/gaian/.m2/repository/org/slf4j/slf4j-api/2.0.6/slf4j-api-2.0.6.jar:/home/gaian/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/home/gaian/.m2/repository/com/github/docker-java/docker-java/3.2.14/docker-java-3.2.14.jar:/home/gaian/.m2/repository/com/github/docker-java/docker-java-core/3.2.14/docker-java-core-3.2.14.jar:/home/gaian/.m2/repository/com/github/docker-java/docker-java-api/3.2.14/docker-java-api-3.2.14.jar:/home/gaian/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/home/gaian/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/home/gaian/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/home/gaian/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/home/gaian/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/home/gaian/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/home/gaian/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/home/gaian/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/home/gaian/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.14/docker-java-transport-httpclient5-3.2.14.jar:/home/gaian/.m2/repository/com/github/docker-java/docker-java-transport/3.2.14/docker-java-transport-3.2.14.jar:/home/gaian/.m2/repository/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar:/home/gaian/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/home/gaian/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/gaian/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/home/gaian/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/home/gaian/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/home/gaian/.m2/repository/com/vimalselvam/cucumber-extentsreport/3.0.2/cucumber-extentsreport-3.0.2.jar:/home/gaian/.m2/repository/com/aventstack/extentreports/3.1.2/extentreports-3.1.2.jar:/home/gaian/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/home/gaian/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/home/gaian/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/home/gaian/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/home/gaian/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/home/gaian/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/home/gaian/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/gaian/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/home/gaian/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/home/gaian/.m2/repository/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/gaian"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/>
+    <property name="basedir" value="/home/gaian/Downloads/selenium-cucumber-page-object-example-master"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/gaian/Downloads/selenium-cucumber-page-object-example-master/target/surefire/surefirebooter-20230223184130897_3.jar"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_352-8u352-ga-1~20.04-b08"/>
+    <property name="user.name" value="gaian"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.4.0-139-generic"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/gaian/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="1.8.0_352"/>
+    <property name="user.dir" value="/home/gaian/Downloads/selenium-cucumber-page-object-example-master"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Private Build"/>
+    <property name="java.vm.version" value="25.352-b08"/>
+    <property name="java.specification.maintenance.version" value="4"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="Given Login form in login page" classname="| mobius@gaiansolutions.com | Gaian@123 |" time="0.002">
+    <system-out><![CDATA[Feature: Automated Home Page ORCHESTRATOR PORTAL
+
+  Scenario Outline: User verfies the Home Page                        &amp#27;[90m# HomeTest.feature:5&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mLogin form in login page&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mSubmit email using "<email>" and password using "<password>"&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser is able to see all the Logos, Buttons in toolBar menu&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser able to click all the buttons in toolBar menu&amp#27;[0m
+
+    Examples: 
+]]></system-out>
+    <system-err><![CDATA[SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 13058
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 23, 2023 6:41:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Given Login form in login page" classname="| mobius@gaiansolutions.com | Gaian@123 |" time="0">
+    <system-out><![CDATA[
+  Scenario Outline: User verfies the Home Page                                         &amp#27;[90m# HomeTest.feature:13&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mLogin form in login page&amp#27;[0m                                                     &amp#27;[90m# LoginSteps.loginPageIsDisplayed()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mSubmit email using "&amp#27;[0m&amp#27;[32m&amp#27;[1mmobius@gaiansolutions.com&amp#27;[0m&amp#27;[32m" and password using "&amp#27;[0m&amp#27;[32m&amp#27;[1mGaian@123&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# LoginSteps.submitEmailPassword(String,String)&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser is able to see all the Logos, Buttons in toolBar menu&amp#27;[0m                    &amp#27;[90m# LoginSteps.user_is_able_to_see_all_the_Logos_Buttons_in_toolBar_menu()&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser able to click all the buttons in toolBar menu&amp#27;[0m                             &amp#27;[90m# LoginSteps.user_able_to_click_all_the_buttons_in_toolBar_menu()&amp#27;[0m
+Feature: As a user, I want to Login ORCHESTRATOR PORTAL
+
+  @ValidCase @SomeTags
+  Scenario Outline: : Successful login using valid account            &amp#27;[90m# LoginTest.feature:4&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mLogin form in login page&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mSubmit email using "<email>" and password using "<password>"&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mThen User verfiy the Page title&amp#27;[0m
+
+    Examples: 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 32152
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Feb 23, 2023 6:41:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="When Submit email using &quot;mobius@gaiansolutions.com&quot; and password using &quot;Gaian@123&quot;" classname="| mobius@gaiansolutions.com | Gaian@123 |" time="0"/>
+  <testcase name="When Submit email using &quot;mobius@gaiansolutions.com&quot; and password using &quot;Gaian@123&quot;" classname="| mobius@gaiansolutions.com | Gaian@123 |" time="0"/>
+  <testcase name="Then User is able to see all the Logos, Buttons in toolBar menu" classname="| mobius@gaiansolutions.com | Gaian@123 |" time="0"/>
+  <testcase name="And User able to click all the buttons in toolBar menu" classname="| mobius@gaiansolutions.com | Gaian@123 |" time="0"/>
+  <testcase name="" classname="| mobius@gaiansolutions.com | Gaian@123 |" time="0.002"/>
+  <testcase name="" classname="| mobius@gaiansolutions.com | Gaian@123 |" time="0.001"/>
+  <testcase name="Then Then User verfiy the Page title" classname="| mobius@gaiansolutions.com | Gaian@123 |" time="0">
+    <system-out><![CDATA[True
+]]></system-out>
+  </testcase>
+</testsuite>

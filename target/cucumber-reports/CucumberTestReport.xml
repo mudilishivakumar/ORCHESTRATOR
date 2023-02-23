@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="28.19655">
+<testcase classname="Automated Home Page ORCHESTRATOR PORTAL" name="User verfies the Home Page" time="15.629145">
+<system-out><![CDATA[Given Login form in login page..............................................passed
+When Submit email using "mobius@gaiansolutions.com" and password using "Gaian@123".passed
+Then User is able to see all the Logos, Buttons in toolBar menu.............passed
+And User able to click all the buttons in toolBar menu......................passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user, I want to Login ORCHESTRATOR PORTAL" name=": Successful login using valid account" time="12.567405">
+<system-out><![CDATA[Given Login form in login page..............................................passed
+When Submit email using "mobius@gaiansolutions.com" and password using "Gaian@123".passed
+Then Then User verfiy the Page title........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
